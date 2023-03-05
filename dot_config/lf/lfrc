@@ -1,0 +1,2 @@
+map <esc> quit
+set previewer ~/.config/lf/previewer.sh

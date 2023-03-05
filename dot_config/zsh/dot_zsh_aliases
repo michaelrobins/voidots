@@ -1,0 +1,15 @@
+alias la='ls -lAFh --color=auto'   #long list,show almost all,show type,human readable
+alias lt='ls -ltFh --color=auto'   #long list,sorted by date,show type,human readable
+alias ll='ls -l --color=auto'      #long list
+alias ldot='ls -ld .*'
+alias zshrc="vim ~/.config/zsh/.zshrc"
+alias vrc="vim ~/.config/nvim/init.lua"
+alias dotgit="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias vplug="vim ~/.config/nvim/lua/plugins.lua"
+alias nrb="nr build"
+alias nrs="nr start"
+alias ginit='git init && git add -A && git commit -m "Initial commit"'
+alias xi="sudo xbps-install -S"
+alias xrm="sudo xbps-remove -R"
+alias xq="xbps-query -Rs"
+alias lsp="vim ~/.config/nvim/lua/mwr/lsp.lua"
